@@ -23,6 +23,7 @@ class Bank {
         } else {
             System.out.println("Account not found!");
         }
+
 		#feature2 code by ethan for Banking project in oct 2024
 		public class BankingSystem {
     public static void main(String[] args) {
@@ -42,4 +43,26 @@ class Bank {
     }
 }
 #end of feature2 code
+
+		#feature1 changes  by Vivek Developer for the Banking Project in oct2024
+		public static void main(String[] args) {
+      
+    int base = 3, powerRaised = 4;
+    int result = power(base, powerRaised);
+
+    System.out.println(base + "^" + powerRaised + "=" + result);
+  }
+
+  public static int power(int base, int powerRaised) {
+    if (powerRaised != 0) {
+
+      // recursive call to power()
+      return (base * power(base, powerRaised - 1));
+    }
+    else {
+      return 1;
+    }
+  }
+  #end of feature1 code
+
     }
