@@ -23,6 +23,7 @@ class Bank {
         } else {
             System.out.println("Account not found!");
         }
+
 		#feature2 changes  by Ethan in october 2024
 		  public static void main(String[] args) {
         Bank bank = new Bank();
@@ -37,4 +38,20 @@ class Bank {
     }
 }
 #end of feature2 code changes
+
+		#feature1 code changes by Vivek in October 2024
+		 public static void main(String[] args) {
+    
+    int num1 = 25;
+    int num2 = 15;
+
+    // create an object of Main
+    Main obj = new Main();
+    // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+  }
+}
+#end of feature1 code
+
     }
